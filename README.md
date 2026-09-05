@@ -1,16 +1,83 @@
-# React + Vite
+# 📝 React Blog Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-stack blog application built with **React.js** and **Appwrite**. Users can create, edit, delete, and manage their blog posts with authentication and post status management.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 **[View Live Project](https://zesty-mousse-b68f98.netlify.app)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔐 User authentication with Appwrite
+* 📝 Create blog posts
+* ✏️ Edit posts
+* 🗑️ Delete posts
+* 👤 User-specific post management
+* 📌 Active/Inactive post status
+* 📚 View active posts
+* 🔒 Protected routes
+* 📱 Responsive UI
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* **React.js**
+* **Vite**
+* **JavaScript**
+* **Redux Toolkit**
+* **React Router**
+* **Appwrite**
+* **TinyMCE**
+* **CSS**
+* **Netlify**
+
+## 🔐 Authentication
+
+Authentication is handled using **Appwrite**.
+
+Users can:
+
+* Create an account
+* Log in and log out
+* Maintain an authenticated session
+* Access protected pages
+
+## 📝 Blog Management
+
+Authenticated users can manage their own blog posts.
+
+* Create posts
+* Edit posts
+* Delete posts
+* Change post status
+* View active posts
+
+Inactive posts are hidden from the active posts section while remaining available for management.
+
+## 🌐 Deployment
+
+The project is deployed on **Netlify**.
+
+👉 **[Visit the Live Website](https://zesty-mousse-b68f98.netlify.app)**
+
+## 🎯 Purpose
+
+This project was built to practice and demonstrate:
+
+* React development
+* Redux state management
+* React Router
+* Appwrite backend integration
+* Authentication
+* CRUD operations
+* Protected routes
+* Deployment
+
+## 👨‍💻 Author
+
+**Ammar Saqib**
+
+[GitHub Profile](https://github.com/Ammarsaqib2005)
+
+---
+
+⭐ If you like this project, consider giving the repository a star!
